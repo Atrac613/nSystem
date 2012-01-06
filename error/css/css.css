@@ -1,0 +1,50 @@
+TABLE{
+  border-top-style : none;
+  border-left-style : none;
+  border-right-style : none;
+  border-bottom-style : none;
+}
+BODY{
+  color : white;
+  background-color : black;
+  SCROLLBAR-FACE-COLOR: #000099;
+  SCROLLBAR-HIGHLIGHT-COLOR: #80afff;
+  SCROLLBAR-SHADOW-COLOR: #80afff;
+  SCROLLBAR-3DLIGHT-COLOR: black;
+  SCROLLBAR-ARROW-COLOR: #80afff;
+  SCROLLBAR-TRACK-COLOR: black;
+  SCROLLBAR-DARKSHADOW-COLOR: black;
+}
+A:HOVER{
+  color : #3977ea;
+}
+A:LINK{
+  text-decoration : none;
+  color : #75a0f0;
+}
+A:VISITED{
+  text-decoration : underline;
+  color : #75a0f0;
+}
+A:ACTIVE{
+  color : navy;
+  text-decoration : overline;
+}
+.emo-1{
+  position:absolute;
+  background-image : url(../images/sky7.jpg);
+  top:0;
+  left:0;
+  height:expression(document.body.clientHeight);
+  width:expression(document.body.clientWidth);
+  z-index:-4;
+}
+.emo-2{
+  position:absolute;
+  background-image : url(../images/sky11.jpg);
+  top:0;
+  left:0;
+  height:expression(document.body.clientHeight);
+  width:expression(document.body.clientWidth);
+  z-index:-4;
+}
